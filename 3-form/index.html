@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Formularze</title>
 </head>
+
 <body>
-    <form action="https://formspree.io/sebastian@fidura.pl" method="post">       
-        
+    <form action="https://formspree.io/sebastian@fidura.pl" method="post">
+
         <label for="first-name">Imię:</label>
         <input type="text" name="first-name" placeholder="Wpisz imię" />
-        
+
         <label for="last-name">Nazwisko:</label>
         <input type="text" name="last-name" placeholder="Wpisz nazwisko" />
-        
+
         <label for="email">Email:</label>
         <input type="email" name="email" placeholder="Wpisz email" />
-        
+
         <label for="phone">Numer telefonu:</label>
         <input type="number" name="phone" placeholder="Wpisz numer telefonu" />
-        
+
         <label for="gender">Wybierz:</label>
         <select name="gender">
             <option value="Kobieta">Kobieta</option>
             <option value="Mężczyzna">Mężczyzna</option>
         </select>
         
+        <label for="where">Gdzie jesteś?</label>
+        <input type="radio" name="where">Tutaj
+        <input type="radio" name="where">Nigdzie
+
         <label for="msg">Wiadomość:</label>
         <textarea name="msg" id="" cols="30" rows="10"></textarea>
         
         <input type="submit" value="Wyślij" />
     </form>
 </body>
+
 </html>
